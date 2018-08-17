@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Mail;
 using System.Web;
 using System.Web.Http;
 using System.Web.Http.Cors;
@@ -134,7 +135,37 @@ namespace WebApiForAngular.Controllers
         [Route("SendEmail")]
         public string SendEmail(ManageEmployee emp)
         {
-            return "";
+            try
+            {
+                using (MailMessage mm = new MailMessage("Jitendra <jeetsharma8390@gmail.com>", "jeetusharma.jee@gmail.com"))
+                {
+                    mm.Subject = "Registration Successful!!";
+                    mm.Body = emp.Name + " is registered successfully!!";
+                    //if (fuAttachment.HasFile)
+                    //{
+                    //    string FileName = Path.GetFileName(fuAttachment.PostedFile.FileName);
+                    //    mm.Attachments.Add(new Attachment(fuAttachment.PostedFile.InputStream, FileName));
+                    //}
+                    System.Net.Mail.Attachment attachment;
+                    string path = HttpContext.Current.Server.MapPath("~/UploadFile/" + emp.EmpImage);
+                    attachment = new System.Net.Mail.Attachment(path);
+                    mm.Attachments.Add(attachment);
+                    mm.IsBodyHtml = false;
+                    SmtpClient smtp = new SmtpClient();
+                    smtp.Host = "smtp.gmail.com";
+                    smtp.EnableSsl = true;
+                    NetworkCredential NetworkCred = new NetworkCredential("jeetsharma8390@gmail.com", "Jeet123xxx@$");
+                    smtp.UseDefaultCredentials = true;
+                    smtp.Credentials = NetworkCred;
+                    smtp.Port = 587;
+                    smtp.Send(mm);
+                    return "Success";
+                }
+            }
+            catch (Exception ex)
+            {
+                return "Fail";
+            }
         }
     }
 }
