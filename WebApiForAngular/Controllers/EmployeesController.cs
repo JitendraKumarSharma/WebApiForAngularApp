@@ -129,5 +129,12 @@ namespace WebApiForAngular.Controllers
             }
             return fileName;
         }
+
+        [HttpPost]
+        [Route("SendEmail")]
+        public string SendEmail(ManageEmployee emp)
+        {
+            return "";
+        }
     }
 }
