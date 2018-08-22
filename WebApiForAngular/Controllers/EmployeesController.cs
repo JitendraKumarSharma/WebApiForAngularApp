@@ -120,12 +120,26 @@ namespace WebApiForAngular.Controllers
             var fileName = string.Empty;
             if (httpRequest.Files.Count > 0)
             {
+
                 foreach (string file in httpRequest.Files)
                 {
+                    int empid = Convert.ToInt32(HttpContext.Current.Request.Form["id"]);
+                    int length = httpRequest.Files[0].ContentLength;
+                    byte[] pic = new byte[length];
+                    httpRequest.Files[0].InputStream.Read(pic, 0, length);
+                    bool isUpdated = objmodel.UploadImageAsImage(pic, empid);
+
                     var postedFile = httpRequest.Files[file];
                     fileName = DateTime.Now.Year + "_" + DateTime.Now.Month + "_" + DateTime.Now.Day + "_" + DateTime.Now.Hour + "_" + DateTime.Now.Minute + "_" + DateTime.Now.Second + "_" + DateTime.Now.Millisecond + "_" + postedFile.FileName;
                     var filePath = HttpContext.Current.Server.MapPath("~/UploadFile/" + fileName);
                     postedFile.SaveAs(filePath);
+
+                    
+
+                    byte[] buffer = File.ReadAllBytes(filePath);
+                    bool isUpdated1 = objmodel.UploadImageAsBinary(buffer, empid);
+
+                    
                 }
             }
             return fileName;
