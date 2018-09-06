@@ -168,7 +168,7 @@ namespace WebApiForAngular.Controllers
                     SmtpClient smtp = new SmtpClient();
                     smtp.Host = "smtp.gmail.com";
                     smtp.EnableSsl = true;
-                    NetworkCredential NetworkCred = new NetworkCredential("jeetsharma8390@gmail.com", "Sh123Jeetxxx@$");
+                    NetworkCredential NetworkCred = new NetworkCredential("jeetsharma8390@gmail.com", "123456");
                     smtp.UseDefaultCredentials = true;
                     smtp.Credentials = NetworkCred;
                     smtp.Port = 587;
