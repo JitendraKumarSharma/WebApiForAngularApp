@@ -133,8 +133,8 @@ namespace WebApiForAngular.Controllers
                     fileName = DateTime.Now.Year + "_" + DateTime.Now.Month + "_" + DateTime.Now.Day + "_" + DateTime.Now.Hour + "_" + DateTime.Now.Minute + "_" + DateTime.Now.Second + "_" + DateTime.Now.Millisecond + "_" + postedFile.FileName;
                     var filePath = HttpContext.Current.Server.MapPath("~/UploadFile/" + fileName);
                     postedFile.SaveAs(filePath);
+                    bool isUpdated2= objmodel.UpdateImageName(fileName, empid);
 
-                    
 
                     byte[] buffer = File.ReadAllBytes(filePath);
                     bool isUpdated1 = objmodel.UploadImageAsBinary(buffer, empid);
@@ -168,7 +168,7 @@ namespace WebApiForAngular.Controllers
                     SmtpClient smtp = new SmtpClient();
                     smtp.Host = "smtp.gmail.com";
                     smtp.EnableSsl = true;
-                    NetworkCredential NetworkCred = new NetworkCredential("jeetsharma8390@gmail.com", "Jeet123xxx@$");
+                    NetworkCredential NetworkCred = new NetworkCredential("jeetsharma8390@gmail.com", "Sh123Jeetxxx@$");
                     smtp.UseDefaultCredentials = true;
                     smtp.Credentials = NetworkCred;
                     smtp.Port = 587;
