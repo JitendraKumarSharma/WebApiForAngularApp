@@ -119,7 +119,6 @@ namespace WebApiForAngular.Models
                 cmd.Parameters.AddWithValue("@Gender", Emp.Gender);
                 cmd.Parameters.AddWithValue("@IsMarried", Emp.IsMarried);
                 cmd.Parameters.AddWithValue("@DOB", Emp.DOB);
-                cmd.Parameters.AddWithValue("@EmpImage", Emp.EmpImage);
                 cmd.Connection.Open();
                 id = Convert.ToInt32(cmd.ExecuteScalar());
                 cmd.Connection.Close();
@@ -168,6 +167,85 @@ namespace WebApiForAngular.Models
             catch (Exception ex)
             {
                 return dt;
+            }
+        }
+
+        public bool UploadImageAsImage(byte[] pic, int EmpId)
+        {
+            try
+            {
+                cmd.Connection = DbConnection.CreateConnection();
+                cmd = new SqlCommand("update employee set  EmpImage_Image=@pic where EmpId=@id", cmd.Connection);
+                cmd.Parameters.AddWithValue("@pic", pic);
+                cmd.Parameters.AddWithValue("@id", EmpId);
+                cmd.Connection.Open();
+                int cnt = cmd.ExecuteNonQuery();
+                cmd.Connection.Close();
+                if (cnt > 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public bool UploadImageAsBinary(byte[] pic, int EmpId)
+        {
+            try
+            {
+                cmd = new SqlCommand("UpdateImage", cmd.Connection);
+                cmd.Connection = DbConnection.CreateConnection();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@EmpId", EmpId);
+                cmd.Parameters.AddWithValue("@EmpImage_Binary", pic);
+                cmd.Connection.Open();
+                int cnt = cmd.ExecuteNonQuery();
+                cmd.Connection.Close();
+                if (cnt > 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public bool UpdateImageName(string fileName, int EmpId)
+        {
+            try
+            {
+                cmd.Connection = DbConnection.CreateConnection();
+                cmd = new SqlCommand("update employee set  EmpImage=@pic where EmpId=@id", cmd.Connection);
+                cmd.Parameters.AddWithValue("@pic", fileName);
+                cmd.Parameters.AddWithValue("@id", EmpId);
+                cmd.Connection.Open();
+                int cnt = cmd.ExecuteNonQuery();
+                cmd.Connection.Close();
+                if (cnt > 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                return false;
             }
         }
     }

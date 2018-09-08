@@ -120,12 +120,26 @@ namespace WebApiForAngular.Controllers
             var fileName = string.Empty;
             if (httpRequest.Files.Count > 0)
             {
+
                 foreach (string file in httpRequest.Files)
                 {
+                    int empid = Convert.ToInt32(HttpContext.Current.Request.Form["id"]);
+                    int length = httpRequest.Files[0].ContentLength;
+                    byte[] pic = new byte[length];
+                    httpRequest.Files[0].InputStream.Read(pic, 0, length);
+                    bool isUpdated = objmodel.UploadImageAsImage(pic, empid);
+
                     var postedFile = httpRequest.Files[file];
                     fileName = DateTime.Now.Year + "_" + DateTime.Now.Month + "_" + DateTime.Now.Day + "_" + DateTime.Now.Hour + "_" + DateTime.Now.Minute + "_" + DateTime.Now.Second + "_" + DateTime.Now.Millisecond + "_" + postedFile.FileName;
                     var filePath = HttpContext.Current.Server.MapPath("~/UploadFile/" + fileName);
                     postedFile.SaveAs(filePath);
+                    bool isUpdated2= objmodel.UpdateImageName(fileName, empid);
+
+
+                    byte[] buffer = File.ReadAllBytes(filePath);
+                    bool isUpdated1 = objmodel.UploadImageAsBinary(buffer, empid);
+
+                    
                 }
             }
             return fileName;
@@ -154,7 +168,7 @@ namespace WebApiForAngular.Controllers
                     SmtpClient smtp = new SmtpClient();
                     smtp.Host = "smtp.gmail.com";
                     smtp.EnableSsl = true;
-                    NetworkCredential NetworkCred = new NetworkCredential("jeetsharma8390@gmail.com", "Jeet123xxx@$");
+                    NetworkCredential NetworkCred = new NetworkCredential("jeetsharma8390@gmail.com", "123456");
                     smtp.UseDefaultCredentials = true;
                     smtp.Credentials = NetworkCred;
                     smtp.Port = 587;
