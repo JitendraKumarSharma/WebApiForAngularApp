@@ -13,6 +13,7 @@ using WebApiForAngular.Models;
 
 namespace WebApiForAngular.Controllers
 {
+    [Authorize]
     [RoutePrefix("api")]
     public class EmployeesController : ApiController
     {
