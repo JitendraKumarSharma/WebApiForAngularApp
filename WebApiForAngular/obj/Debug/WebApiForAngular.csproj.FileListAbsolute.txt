@@ -276,3 +276,5 @@ F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.Twit
 F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Http.Owin.xml
 F:\Angular\WebApiForAngularApp\WebApiForAngular\obj\Debug\WebApiForAngular.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Cors.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Cors.xml

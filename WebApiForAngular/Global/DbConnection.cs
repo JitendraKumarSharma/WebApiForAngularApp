@@ -10,7 +10,7 @@ namespace WebApiForAngular.Global
     {
         public static SqlConnection CreateConnection()
         {
-            return new SqlConnection(ConfigurationManager.ConnectionStrings["ConStr"].ConnectionString.ToString());
+            return new SqlConnection(ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString.ToString());
         }
     }
 }

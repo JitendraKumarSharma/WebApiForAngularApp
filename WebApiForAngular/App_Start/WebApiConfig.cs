@@ -30,8 +30,8 @@ namespace WebApiForAngular
                 defaults: new { id = RouteParameter.Optional }
             );
 
-            var cors = new EnableCorsAttribute("http://localhost:4200", headers: "*", methods: "*");
-            config.EnableCors(cors);
+            //var cors = new EnableCorsAttribute("http://localhost:4200", headers: "*", methods: "*");            
+            //config.EnableCors(cors);
 
             //config.MapHttpAttributeRoutes();
 
