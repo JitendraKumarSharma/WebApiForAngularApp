@@ -276,6 +276,7 @@ F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.Twit
 F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Http.Owin.xml
 F:\Angular\WebApiForAngularApp\WebApiForAngular\obj\Debug\WebApiForAngular.dll
+<<<<<<< HEAD
 G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\bin\ApplicationInsights.config
 G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\bin\roslyn\csc.exe
 G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -369,3 +370,7 @@ G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\bin\System.Web
 G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\obj\Debug\WebApiForAngular.csprojResolveAssemblyReference.cache
 G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\obj\Debug\WebApiForAngular.dll
 G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\obj\Debug\WebApiForAngular.pdb
+=======
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Cors.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Cors.xml
+>>>>>>> d881fafd4ab78a8475a18a86cdc3e4ce705743de

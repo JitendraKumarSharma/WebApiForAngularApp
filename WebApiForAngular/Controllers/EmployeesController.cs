@@ -139,7 +139,6 @@ namespace WebApiForAngular.Controllers
                     byte[] buffer = File.ReadAllBytes(filePath);
                     bool isUpdated1 = objmodel.UploadImageAsBinary(buffer, empid);
 
-                    
                 }
             }
             return fileName;
@@ -181,5 +180,6 @@ namespace WebApiForAngular.Controllers
                 return "Fail";
             }
         }
+
     }
 }
