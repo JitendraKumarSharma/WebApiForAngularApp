@@ -1,3 +1,98 @@
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\ApplicationInsights.config
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\roslyn\csc.exe
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\roslyn\System.Collections.Immutable.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\roslyn\System.Reflection.Metadata.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\roslyn\vbc.exe
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\roslyn\VBCSCompiler.exe
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\roslyn\VBCSCompiler.exe.config
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\WebApiForAngular.dll.config
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\WebApiForAngular.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\WebApiForAngular.pdb
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Antlr3.Runtime.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\EntityFramework.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\EntityFramework.SqlServer.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.AI.DependencyCollector.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.AI.Web.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.AI.WindowsServer.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.ApplicationInsights.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Cors.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.Google.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Web.Infrastructure.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Newtonsoft.Json.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Owin.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Net.Http.Formatting.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Cors.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Helpers.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Http.Cors.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Http.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Http.Owin.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Http.WebHost.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Mvc.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Optimization.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Razor.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.WebPages.Deployment.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.WebPages.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.WebPages.Razor.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\WebGrease.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.AI.DependencyCollector.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.AI.Web.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.AI.WindowsServer.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.ApplicationInsights.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Cors.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Net.Http.Formatting.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Http.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Http.Cors.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Newtonsoft.Json.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Helpers.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Http.WebHost.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Mvc.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Optimization.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Razor.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.WebPages.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.WebPages.Deployment.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.WebPages.Razor.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Antlr3.Runtime.pdb
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\EntityFramework.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\EntityFramework.SqlServer.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.Google.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Http.Owin.xml
+F:\Angular\WebApiForAngularApp\WebApiForAngular\obj\Debug\WebApiForAngular.csprojResolveAssemblyReference.cache
+F:\Angular\WebApiForAngularApp\WebApiForAngular\obj\Debug\WebApiForAngular.dll
+F:\Angular\WebApiForAngularApp\WebApiForAngular\obj\Debug\WebApiForAngular.pdb
 G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\bin\ApplicationInsights.config
 G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\bin\roslyn\csc.exe
 G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -90,6 +185,6 @@ G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.
 G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.Twitter.xml
 G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\bin\System.Web.Http.Owin.xml
+G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\obj\Debug\WebApiForAngular.csprojResolveAssemblyReference.cache
 G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\obj\Debug\WebApiForAngular.dll
 G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\obj\Debug\WebApiForAngular.pdb
-G:\Angular4\Angular Employee\WebApiForAngularApp\WebApiForAngular\obj\Debug\WebApiForAngular.csprojResolveAssemblyReference.cache
